@@ -12,7 +12,7 @@ const App = (props) => {
 
   const queryDB = useCallback(
     (page) => {
-      axios.get(`/events?q=${searchTerm}&_page=${page}`)
+      axios.get(`/events?q=${searchTerm}&_page=${page}&_sort=category1`)
         .then((response) => {
           setResults(response.data);
           setTotalPages(Math.ceil(response.headers["x-total-count"] / 10));

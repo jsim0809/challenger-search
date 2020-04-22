@@ -29,12 +29,10 @@ const SearchResults = ({ results, totalPages, handlePageChangeClick }) => {
         <div className="container">
           <table className="table">
             <tr>
-              <th>Date</th>
+              <th>Year</th>
               <th>Description</th>
-              <th>Lang</th>
               <th>Category1</th>
               <th>Category2</th>
-              <th>Granularity</th>
             </tr>
             {results.map((event) => (
               <SearchResultsRow event={event} />

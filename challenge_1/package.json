@@ -15,7 +15,8 @@
     "json-server": "^0.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-paginate": "^6.3.2"
+    "react-paginate": "^6.3.2",
+    "wtf_wikipedia": "^8.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
