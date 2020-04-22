@@ -4,11 +4,9 @@
   "description": "A single-page app that enables users to search and browse historical event information from a JSON-formatted database.",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
-    "start-dev": "nodemon server/server.js",
+    "start": "json-server --watch data/db.json",
     "webpack": "webpack",
-    "webpack-dev": "webpack -w",
-    "database": "json-server --watch data/db.json"
+    "webpack-dev": "webpack -w"
   },
   "author": "Jeremy Sim <jeremy_sim@hotmail.com> (https://github.com/jsim0809)",
   "license": "ISC",
@@ -16,7 +14,8 @@
     "axios": "^0.19.2",
     "json-server": "^0.16.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-paginate": "^6.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
