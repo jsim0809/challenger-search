@@ -5,4 +5,4 @@ Built with React Hooks, JSON-server, react-paginate, Bulma, and wtf_wikipedia.
 
 ## Screencast
 
-![Screencast](https://i.imgur.com/dHMELRC.gifv)
+![Screencast](https://i.imgur.com/dHMELRC.gif)
